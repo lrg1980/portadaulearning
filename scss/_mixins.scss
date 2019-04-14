@@ -16,3 +16,32 @@
      background-repeat: no-repeat;
      background-position: center center;
 }
+
+@mixin gradiente($colo1, $color2){
+     background: linear-gradient(to left, $colo1 0%, $color2 100%
+     );
+}
+
+/* Media Queries */
+@mixin telefono{
+     @media only screen and (min-width: #{$telefono}){
+          @content;
+     }
+}
+@mixin tablet{
+     @media only screen and (min-width: #{$tablet}){
+          @content;
+     }          
+}
+
+@mixin desktop{
+     @media only screen and (min-width: #{$desktop}){
+          @content;
+     }
+}
+
+@mixin tv{
+     @media only screen and (min-width: #{$tv}){
+          @content;
+     }
+}
