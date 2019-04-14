@@ -22,6 +22,23 @@
      );
 }
 
+/* Menus de navegación */
+@mixin menus() {
+     display: flex;
+     flex-direction: column;
+     margin-bottom: 1rem;
+     flex:1;
+     @include desktop(){
+          flex: 0 1 calc(30% - 1rem);
+     }
+
+     a{
+          color: $negro;
+          text-decoration: none;
+          margin-bottom: .5rem;
+     }
+}
+
 /* Media Queries */
 @mixin telefono{
      @media only screen and (min-width: #{$telefono}){
