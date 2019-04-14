@@ -1,0 +1,25 @@
+{
+  "name": "portadaulearning",
+  "version": "1.0.0",
+  "description": "Carrito de compra portada ulearning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lrg1980/portadaulearning.git"
+  },
+  "keywords": [
+    "flexbox",
+    "gulp",
+    "sass",
+    "autoprefixer"
+  ],
+  "author": "Leonardo Grabow - Binweb Online Solutions",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lrg1980/portadaulearning/issues"
+  },
+  "homepage": "https://github.com/lrg1980/portadaulearning#readme"
+}
