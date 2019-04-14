@@ -1,8 +1,19 @@
-/* VARIABLES */
-     /* COLORES */
-     $principal: #33C3F0;
-     $gris: #e1e1e1;
-     $blanco: #ffffff;
+@import 'variables';
+@import 'mixins';
+
+html {
+     @include box-sizing(border-box);
+}
+
+*,
+*:after,
+*:before {
+     @include box-sizing(inherit);
+}
+
+body {
+     font-family: $fuente_principal;
+}
 
 .contenedor {
      max-width: 1100px;
@@ -37,12 +48,7 @@
           }
 
           .boton {
-               background-color: $principal;
-               padding: .5rem 1rem;
-               display: block;
-               text-align: center;
-               color: $blanco;
-               text-decoration: none;
+               @include boton($terciario);
           }
      }
 }

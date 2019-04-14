@@ -1,5 +1,17 @@
 /* VARIABLES */
+/* */
 /* COLORES */
+html {
+  box-sizing: border-box; }
+
+*,
+*:after,
+*:before {
+  box-sizing: inherit; }
+
+body {
+  font-family: "Raleway", sans-serif; }
+
 .contenedor {
   max-width: 1100px;
   margin: 0 auto; }
@@ -32,7 +44,7 @@
     .carrito-compras:hover .contenido img {
       max-width: 120px; }
     .carrito-compras:hover .contenido .boton {
-      background-color: #33C3F0;
+      background-color: #e44e52;
       padding: .5rem 1rem;
       display: block;
       text-align: center;
